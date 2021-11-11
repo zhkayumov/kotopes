@@ -9,11 +9,11 @@
         android:name="com.example.kotopes.main"
         android:label="main" >
         <action
-            android:id="@+id/action_main_to_info2"
-            app:destination="@id/info2" />
+            android:id="@+id/action_main_to_info"
+            app:destination="@id/info" />
     </fragment>
     <fragment
-        android:id="@+id/info2"
+        android:id="@+id/info"
         android:name="com.example.kotopes.info"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" >
